@@ -1,2 +1,2 @@
-const SUPABASE_URL = "MET_TON_URL_SUPABASE"
-const SUPABASE_KEY = "MET_TA_CLE_SUPABASE"
+const SUPABASE_URL = "https://xmtbivcagqpymsptgvuh.supabase.co/rest/v1/"
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhtdGJpdmNhZ3FweW1zcHRndnVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNjY1NDksImV4cCI6MjA5NDg0MjU0OX0.xdVtJm3ljg3U0pTHBjTbPPHbJ3sTUDmoqum-zVUKMaM"
