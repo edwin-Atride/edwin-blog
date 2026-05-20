@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Dark Blog</h1>
+    <p class="subtitle">Articles publics</p>
+  </div>
+
+  <div class="header-buttons">
+    <button id="adminBtn">Admin</button>
+    <button id="logoutBtn" class="hidden">Déconnexion</button>
+  </div>
+</header>
+
+<main>
+  <section id="posts"></section>
+</main>
+
+<div id="loginModal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Connexion Admin</h2>
+
+    <input type="password" id="password" placeholder="Mot de passe">
+
+    <button id="loginBtn">Connexion</button>
+  </div>
+</div>
+
+<div id="adminPanel" class="admin-panel hidden">
+  <h2>Créer un article</h2>
+
+  <input type="text" id="title" placeholder="Titre">
+
+  <textarea id="content" placeholder="Contenu"></textarea>
+
+  <input type="file" id="imageInput" accept="image/*">
+
+  <button id="publishBtn">Publier</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
